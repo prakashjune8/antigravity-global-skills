@@ -18,7 +18,7 @@ import shutil
 import sys
 
 GLOBAL_CONFIG_SKILLS = r"C:\Users\spmad\.gemini\config\skills"
-LOCAL_LIBRARY_ROOT = r"D:\AI SKILLS\GLOBAL_SKILL_LIBRARY"
+LOCAL_LIBRARY_ROOT = r"D:\ANTIGRAVITY PROJECT FOLDER\AI SKILLS\GLOBAL_SKILL_LIBRARY"
 GLOBAL_GEMINI_MD = r"C:\Users\spmad\.gemini\config\GEMINI.md"
 
 SKILLS_DEFINITIONS: dict[str, dict[str, str]] = {}

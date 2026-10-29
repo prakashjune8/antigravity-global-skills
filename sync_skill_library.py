@@ -12,7 +12,7 @@ import shutil
 import sys
 
 GLOBAL_CONFIG_SKILLS = r"C:\Users\spmad\.gemini\config\skills"
-LOCAL_LIBRARY_ROOT = r"D:\AI SKILLS\GLOBAL_SKILL_LIBRARY"
+LOCAL_LIBRARY_ROOT = r"D:\ANTIGRAVITY PROJECT FOLDER\AI SKILLS\GLOBAL_SKILL_LIBRARY"
 
 
 def sync_library(project_skills_dir: str | None = None):
