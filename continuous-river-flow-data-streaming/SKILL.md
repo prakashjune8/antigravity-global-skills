@@ -13,6 +13,7 @@ The **River Flow Architecture** treats financial time-series as an endless conti
 2. **Fixed Horizontal Viewport Coordinates**: The x-axis limits are strictly locked to `[-0.8, W - 0.2]`.
 3. **Physical Drift Illusion**: As new incoming candles enter at the far right ($x = W - 1$), the oldest candles at $x = 0$ drop off into the left boundary. Every existing candle shifts left by $k$ units on each tick.
 4. **Drifting Session Boundaries**: When the active slice spans multiple calendar days, an interactive vertical boundary line (`⚡ [Date] OPEN (09:15)`) moves smoothly from right to left like a boat drifting downstream.
+5. **Flowing X-Axis & Grid Synchronization**: Ticks and vertical grid lines are pinned to exact temporal anchors (e.g. hourly intervals and session opens). As new candles enter on the right, every tick mark and grid line physically shifts leftward by $\Delta$ coordinate units ($x \to x - \Delta$), creating an authentic flowing axis in lockstep with the candles.
 
 ---
 
