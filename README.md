@@ -38,6 +38,7 @@ This library consolidates and standardizes all specialized skills, academic rubr
 19. **`agentic-pair-programming-and-autonomous-debugging`**: Core agent behavior protocol: first-principles derivation, silent self-correction, OS process debugging, and zero-hallucination delivery.
 20. **`project-skill-harvesting-and-library-sync`**: Continuous learning protocol that extracts end-of-project capabilities and syncs them globally.
 21. **`fullstack-development`**: End-to-end fullstack TypeScript, React, and Node.js web development.
+22. **`multi-agent-architectural-auditing`**: Multi-persona static analysis across GPU graphics pipelines, data/memory lifecycles, quantitative math, and state concurrency with tiered vulnerability matrices and deterministic swarm remediation patches.
 
 ---
 
